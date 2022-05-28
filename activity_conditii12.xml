@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".conditii12">
+
+
+    <TextView
+        android:id="@+id/m64"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:layout_margin="3dp"
+        android:text="Sintaxa:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <TextView
+        android:id="@+id/m63"
+        android:layout_width="318dp"
+        android:layout_height="92dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/bordertext"
+        android:text="Utilizați ELSE instrucțiunea pentru a specifica un bloc de cod care trebuie executat dacă condiția este false"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <TextView
+        android:id="@+id/con12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Următorul"
+        android:textColor="#4CAF50"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="257dp"
+        android:layout_height="44dp"
+        android:background="#8BC34A"
+        android:text="Condiții în C++"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="257dp"
+        android:layout_height="44dp"
+        android:background="#CDDC39"
+        android:text="= ELSE = "
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="391dp"
+        android:layout_height="134dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564"
+        app:srcCompat="@drawable/resource_else" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
